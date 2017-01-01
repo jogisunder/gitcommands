@@ -1,0 +1,86 @@
+--------------------------------------------GIT configuration command------------------------------------------------
+  $git config --global user.name "TechAppz"
+  
+  $git config --global user.email "prakash32596@gmail.com"
+  
+  $git config --list(dislplay all details)
+ 
+ $git config user.email -->only email will display
+ 
+ $git help
+ 
+ 
+------------------------------------------CREATING A PROJECT--------------------------------------------------------
+ 
+--> pwd (present working directory)
+--> Changing directory
+-->cd(change directory)
+-->cd ~(home directory)
+-->cd..(it will go back to one directory)
+ 
+ ls(it shows the list of files in the directory)
+ cd MY(it goes to my floder directory)
+ 
+ $git init (it initialized the repository)
+ 
+--------------------------------------------Creating first repositiory and commit------------------------------------
+ list
+ ls (list of files will be shown in the directory)
+ 
+ ls -la(it shows hiddenfiels in the project directory)
+ 
+ $git add .(it will add and changes the file to our project)
+ 
+ $git commit -m "This is the first commit"  (-m  is the message)
+ 
+ ----------------------------------------------ADDING A FILES AND COMMITING A LOG------------------------------------
+ $git log (it will show the time date and author name ,email and display the given message)
+ 
+ $git log --author"TechAppz" (it will displays the existing person)
+ 
+ $git status (it will display wheather the files or commited or not)
+ 
+ ==>create two files in the project directory  and type $git status it will show that files are untracked to track the files 
+ or to commit the file ($git add .) command is used
+ 
+-----------------------------------------------GIT workflow----------------------------------------------------------
+  $git add second.txt (the file will be commited )
+  $ git status
+  $ git commit -m "any message that will dislpaly to that file"
+  
+------------------------------------------------HOW TO EDIT THE FILES------------------------------------------------
+
+$git status
+$git add file.txt
+$git add . (multiple files will be comited)
+
+----------------------------------------------Viewing the changes that u made----------------------------------------
+$git status
+$git add file.txt
+$git add . (multiple files will be comited)
+$get diff (it shows that the changed line will be displayed)
+
+
+----------------------------------------------comparing the stage area with repository----------------------------------
+$git status
+$git add file.txt
+$git add . (multiple files will be comited)
+$get diff (it shows that the changed line will be displayed)
+$ git diff -- staged(it will comapre that new and old file)
+
+
+----------------------------------------------Deleting the files------------------------------------------------------
+$git rm thrid.txt( it  will be deleted in the project dirctory)
+
+==>rm command is used removing or deleting  the files
+=========================================================================================================================
+------------------------------------------------HOW TO MOVE & RENAME FILES----------------------------------------
+$git mv second.txt third.txt
+$git mv second.txt p1\third.txt
+
+$git checkout -- name.txt (some modifications done in the repository)
+
+$git reset HEAD firstcommit.txt (The file will be unchanged stage)
+
+													
+ 
